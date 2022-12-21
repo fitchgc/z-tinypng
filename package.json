@@ -1,0 +1,24 @@
+{
+  "name": "z-tinypng",
+  "version": "0.0.1",
+  "description": "无限制使用tinypng压缩打包后的图片",
+  "author": "zhl",
+  "main": "src/main.js",
+  "dependencies": {
+  },
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/TinyPng": {
+      "message": "z-tinypng:open"
+    }
+  },
+  "panel": {
+    "main": "src/panel/index.js",
+    "type": "dockable",
+    "title": "z-tinypng配置",
+    "width": 600,
+    "height": 700
+  },
+  "reload": {
+    "ignore": ["cfgs/**/*"]
+  }
+}
